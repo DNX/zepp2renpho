@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.png" alt="zepp2renpho logo" width="200">
+</p>
+
 # zepp2renpho
 
 Move your smart scale history from **Zepp** (Amazfit, Zepp Life, ex Mi Fit) to **RENPHO Health**, family members, babies and pets included.
