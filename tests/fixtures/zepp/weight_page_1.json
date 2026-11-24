@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "dataSource": 1,
+      "deviceId": "AABBCCDDEEFF",
+      "deviceSource": 102,
+      "generatedTime": 1731067200,
+      "memberId": "-1",
+      "userId": "1234567890",
+      "weightType": 0,
+      "summary": {
+        "bmi": 21.8,
+        "bodyScore": 89,
+        "bodyStyle": 5,
+        "bodyWaterRate": 56.92887,
+        "boneMass": 2.7305484,
+        "deviceType": 1,
+        "encryptImpedance": "451",
+        "fatRate": 17.01331,
+        "height": 172.0,
+        "impedance": 451,
+        "metabolism": 1358.0,
+        "muscleAge": 25,
+        "muscleRate": 50.961838,
+        "proteinRatio": 21.837502,
+        "source": 1,
+        "standBodyWeight": 64.4,
+        "visceralFat": 9.0,
+        "weight": 64.7
+      }
+    },
+    {
+      "dataSource": 1,
+      "deviceId": "AABBCCDDEEFF",
+      "deviceSource": 102,
+      "generatedTime": 1730980800,
+      "memberId": "87654321",
+      "userId": "1234567890",
+      "weightType": 0,
+      "tz": 60,
+      "summary": "{\"weight\": 8.42, \"height\": 68.0, \"deviceType\": 1, \"source\": 1}"
+    },
+    {
+      "dataSource": 1,
+      "deviceId": "AABBCCDDEEFF",
+      "deviceSource": 102,
+      "generatedTime": 1730894400,
+      "memberId": "-1",
+      "userId": "1234567890",
+      "weightType": 3,
+      "summary": {
+        "weight": 0.0,
+        "deviceType": 1,
+        "source": 1
+      }
+    }
+  ],
+  "next": 1730894400
+}

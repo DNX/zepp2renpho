@@ -1,0 +1,25 @@
+{
+  "result": "ok",
+  "domains": [
+    {
+      "host": "api-user.huami.com",
+      "cnames": ["api-user-de2.zepp.com"]
+    },
+    {
+      "host": "api-mifit.huami.com",
+      "cnames": ["api-mifit-de2.zepp.com", "api-mifit.zepp.com"]
+    }
+  ],
+  "token_info": {
+    "app_token": "very-secret-app-token",
+    "login_token": "very-secret-login-token",
+    "user_id": "1234567890",
+    "ttl": 1209600,
+    "app_ttl": 1209600
+  },
+  "regist_info": {
+    "is_new_user": 0,
+    "region": "de2",
+    "country_code": "IT"
+  }
+}

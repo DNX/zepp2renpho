@@ -1,0 +1,23 @@
+{
+  "id": 884412555,
+  "timeStamp": 1763898000,
+  "localCreatedAt": "2025-11-23 13:00:00",
+  "timeZone": "GMT+01:00",
+  "internalModel": "ES-32MD",
+  "scaleName": "RENPHO ES-32MD",
+  "mac": "C8:3E:99:11:22:33",
+  "gender": 0,
+  "birthday": "2024-02-11",
+  "categoryType": 1,
+  "weight": 9.42,
+  "weightUnit": 0,
+  "headValue": 44.0,
+  "method": 5,
+  "deviceType": "00038",
+  "isAuto": 2,
+  "displayModuleType": 0,
+  "bUserId": 7005678,
+  "userId": 7005678,
+  "createdAt": "2025-11-23 12:00:31",
+  "updatedAt": "2025-11-23 12:00:31"
+}

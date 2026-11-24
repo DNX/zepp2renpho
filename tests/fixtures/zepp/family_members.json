@@ -1,0 +1,34 @@
+{
+  "code": 1,
+  "message": "success",
+  "data": {
+    "total": 2,
+    "list": [
+      {
+        "uid": "1234567890",
+        "fuid": 87654321,
+        "nickname": "Bimbo",
+        "brithday": "2024-05-14",
+        "gender": 1,
+        "height": 68,
+        "weight": 8.4,
+        "targetweight": 0.0,
+        "last_modify": 1731067200,
+        "scale_avatar_id": 3,
+        "measure_mode": 1
+      },
+      {
+        "uid": "1234567890",
+        "fuid": 87654322,
+        "nickname": "Partner",
+        "brithday": "1990-02-03",
+        "gender": 0,
+        "height": 165,
+        "weight": 58.0,
+        "targetweight": 55.0,
+        "last_modify": 1731067200,
+        "measure_mode": 0
+      }
+    ]
+  }
+}
