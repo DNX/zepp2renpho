@@ -6,9 +6,10 @@ Masses are in kilograms. Percentages are 0-100. Timestamps are UTC epoch seconds
 from __future__ import annotations
 
 import json
+from collections.abc import Iterable, Iterator
 from dataclasses import asdict, dataclass, field
 from pathlib import Path
-from typing import Any, Iterable, Iterator
+from typing import Any
 
 OPTIONAL_METRICS = (
     "bmi",

@@ -21,7 +21,7 @@ from __future__ import annotations
 import argparse
 import os
 import sys
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from getpass import getpass
 from pathlib import Path
 
@@ -112,7 +112,7 @@ def build_debug(args: argparse.Namespace) -> DebugDump | None:
 
 def format_day(timestamp: int) -> str:
     """Format an epoch second as a UTC date."""
-    return datetime.fromtimestamp(timestamp, tz=timezone.utc).strftime("%Y-%m-%d")
+    return datetime.fromtimestamp(timestamp, tz=UTC).strftime("%Y-%m-%d")
 
 
 def member_line(member: Member, records: list[Record]) -> str:

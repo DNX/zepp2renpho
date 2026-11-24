@@ -30,7 +30,7 @@ zepp-export = "zepp2renpho.zepp_cli:main"
 renpho-import = "zepp2renpho.renpho_cli:main"
 
 [dependency-groups]
-dev = ["pytest>=8"]
+dev = ["pytest>=8", "ruff>=0.8"]
 
 [build-system]
 requires = ["hatchling"]
@@ -38,3 +38,11 @@ build-backend = "hatchling.build"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "RUF"]
+ignore = ["RUF005", "RUF100"]
