@@ -15,8 +15,9 @@ import os
 import sys
 import time
 from collections import defaultdict
+from collections.abc import Sequence
 from pathlib import Path
-from typing import Any, Sequence
+from typing import Any
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 from renpho.exceptions import RenphoAPIError

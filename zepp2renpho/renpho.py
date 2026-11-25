@@ -20,10 +20,11 @@ from __future__ import annotations
 import json
 import math
 import time
+from collections.abc import Iterable, Sequence
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Iterable, Sequence
+from typing import Any
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 from renpho.constants import APP_VERSION, ENDPOINTS, PLATFORM
@@ -296,7 +297,7 @@ def metric_values(record: Record, template: Template) -> dict[str, Any]:
         value = getattr(record, attribute) if name in fields else None
         if value is None:
             continue
-        values[name] = int(round(value)) if name in INTEGER_FIELDS else round(float(value), 4)
+        values[name] = round(value) if name in INTEGER_FIELDS else round(float(value), 4)
     weight = values.get("weight")
     if not weight or not math.isfinite(weight) or weight <= 0:
         raise RenphoImportError(

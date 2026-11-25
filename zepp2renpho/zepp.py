@@ -44,9 +44,10 @@ import binascii
 import json
 import time
 import urllib.parse
+from collections.abc import Callable, Iterable, Iterator
 from dataclasses import dataclass, replace
 from pathlib import Path
-from typing import Any, Callable, Iterable, Iterator
+from typing import Any
 
 import requests
 
@@ -175,7 +176,7 @@ def _positive_int(value: Any) -> int | None:
     number = _positive_float(value)
     if number is None:
         return None
-    return int(round(number))
+    return round(number)
 
 
 SUMMARY_FIELDS: dict[str, tuple[str, Callable[[Any], Any]]] = {
